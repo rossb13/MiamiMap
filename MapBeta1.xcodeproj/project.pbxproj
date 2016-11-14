@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		F013CD951DCA4A5000A6EE68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013CD941DCA4A5000A6EE68 /* AppDelegate.swift */; };
-		F013CD971DCA4A5000A6EE68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013CD961DCA4A5000A6EE68 /* ViewController.swift */; };
 		F013CD9A1DCA4A5000A6EE68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F013CD981DCA4A5000A6EE68 /* Main.storyboard */; };
 		F013CD9C1DCA4A5000A6EE68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F013CD9B1DCA4A5000A6EE68 /* Assets.xcassets */; };
 		F013CD9F1DCA4A5000A6EE68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F013CD9D1DCA4A5000A6EE68 /* LaunchScreen.storyboard */; };
+		F013CDA71DCA4B2A00A6EE68 /* BuildingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013CDA61DCA4B2A00A6EE68 /* BuildingViewController.swift */; };
+		F06B8B291DDA27E80036C729 /* BusRouteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B8B281DDA27E80036C729 /* BusRouteDetailViewController.swift */; };
+		F06B8B2B1DDA280A0036C729 /* BusRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B8B2A1DDA280A0036C729 /* BusRoute.swift */; };
+		F06B8B2D1DDA290F0036C729 /* BusRouteMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B8B2C1DDA290F0036C729 /* BusRouteMasterViewController.swift */; };
+		F08BE16E1DD4D72A00E0D35F /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08BE16D1DD4D72A00E0D35F /* Building.swift */; };
+		F08BE1701DD4D79D00E0D35F /* BuildingSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08BE16F1DD4D79D00E0D35F /* BuildingSearchTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F013CD911DCA4A5000A6EE68 /* MapBeta1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapBeta1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F013CD941DCA4A5000A6EE68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F013CD961DCA4A5000A6EE68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F013CD991DCA4A5000A6EE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F013CD9B1DCA4A5000A6EE68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F013CD9E1DCA4A5000A6EE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F013CDA01DCA4A5000A6EE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F013CDA61DCA4B2A00A6EE68 /* BuildingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildingViewController.swift; path = ../BuildingViewController.swift; sourceTree = "<group>"; };
+		F06B8B281DDA27E80036C729 /* BusRouteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusRouteDetailViewController.swift; sourceTree = "<group>"; };
+		F06B8B2A1DDA280A0036C729 /* BusRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusRoute.swift; sourceTree = "<group>"; };
+		F06B8B2C1DDA290F0036C729 /* BusRouteMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusRouteMasterViewController.swift; sourceTree = "<group>"; };
+		F08BE16D1DD4D72A00E0D35F /* Building.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		F08BE16F1DD4D79D00E0D35F /* BuildingSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingSearchTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				F013CD941DCA4A5000A6EE68 /* AppDelegate.swift */,
-				F013CD961DCA4A5000A6EE68 /* ViewController.swift */,
+				F013CDA61DCA4B2A00A6EE68 /* BuildingViewController.swift */,
+				F08BE16D1DD4D72A00E0D35F /* Building.swift */,
+				F08BE16F1DD4D79D00E0D35F /* BuildingSearchTable.swift */,
 				F013CD981DCA4A5000A6EE68 /* Main.storyboard */,
+				F06B8B2C1DDA290F0036C729 /* BusRouteMasterViewController.swift */,
+				F06B8B281DDA27E80036C729 /* BusRouteDetailViewController.swift */,
+				F06B8B2A1DDA280A0036C729 /* BusRoute.swift */,
 				F013CD9B1DCA4A5000A6EE68 /* Assets.xcassets */,
 				F013CD9D1DCA4A5000A6EE68 /* LaunchScreen.storyboard */,
 				F013CDA01DCA4A5000A6EE68 /* Info.plist */,
@@ -90,6 +105,9 @@
 		F013CD891DCA4A5000A6EE68 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					car,
+				);
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Brian Ross";
@@ -136,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F013CD971DCA4A5000A6EE68 /* ViewController.swift in Sources */,
+				F06B8B2B1DDA280A0036C729 /* BusRoute.swift in Sources */,
+				F06B8B2D1DDA290F0036C729 /* BusRouteMasterViewController.swift in Sources */,
+				F08BE1701DD4D79D00E0D35F /* BuildingSearchTable.swift in Sources */,
 				F013CD951DCA4A5000A6EE68 /* AppDelegate.swift in Sources */,
+				F08BE16E1DD4D72A00E0D35F /* Building.swift in Sources */,
+				F013CDA71DCA4B2A00A6EE68 /* BuildingViewController.swift in Sources */,
+				F06B8B291DDA27E80036C729 /* BusRouteDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +320,7 @@
 				F013CDA51DCA4A5000A6EE68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
