@@ -1,3 +1,3 @@
-We have been assigned the Miami App. We are coding the app in Swift for iOS. 
+We have been assigned the Miami App. We are coding the app in Swift for iOS. The app will include features such as Mapping to locations on campus, checking dining info, using library services, and looking at bus routes.
 Our identified stakeholders are primarily students (speciffically freshman and sophomore) and faculty, however this also affects staff and visitors to the university like parents of students.
 Our clients are Clair Wagner [University Communications], Micah Cooper [Miami IT], Kirk Hopkins [Miami U. Dining], Sam Brown [Miami Libraries], and Mike Stahr [Project Manager].
